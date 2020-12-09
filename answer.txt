@@ -1,0 +1,10 @@
+a. we think that it would take about 2 minutes for article if we wanted to 
+do it manualy.
+b. this code can be useful in other ways.
+with similar idea we can solve anything that requires finding
+number of appearances in many web pages, like how many time someone
+appeared in different clases in different years.
+c. in order to check every hour you would have to run the code every 
+hour. you can do it automaticly if you use the watch command, but
+instead of creating a new list of links every time you will diff the
+new (orginized) list with the old one, and search only in the new articles.
