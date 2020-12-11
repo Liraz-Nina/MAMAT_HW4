@@ -1,7 +1,7 @@
 #!/bin/bash
 
 wget https://www.ynetnews.com/category/3082
-grep -o -w 'https://www.ynetnews.com/article/.........' 3082 >list.txt
+grep -o -w 'https://www.ynetnews.com/article/[a-zA-Z0-9]\{9\}' 3082 >list.txt
 #getting only one copy of each link
 cat list.txt | sort | uniq >links.txt
 rm list.txt
